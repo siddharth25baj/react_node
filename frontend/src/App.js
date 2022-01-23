@@ -153,8 +153,7 @@ function App() {
             required={true}
           /><br /><br />
           {(emailError || invalidEmail) && <><labe className="error">Please enter valid email</labe><br /><br /></>}
-
-         
+          
           <Button
             variant="contained"
             color="primary"
